@@ -8,35 +8,35 @@ on:
         description: "Integrate YouPiP"
         type: boolean
         required: true
-        default: true
+        default: false
 
       enable_ytuhd:
         description: "Integrate YTUHD"
         type: boolean
-        required: true
-        default: true
+        required: false
+        default: false
 
       enable_ryd:
         description: "Integrate Return YouTube Dislikes"
         type: boolean
-        required: true
+        required: false
         default: true
 
       enable_yq:
         description: "Integrate YouQuality"
         type: boolean
-        required: true
+        required: false
         default: true
 
       enable_demc:
         description: "Integrate DontEatMyContent"
         type: boolean
-        required: true
+        required: false
         default: true
 
       ipa_url:
         description: "URL to the decrypted IPA file"
-        default: "https://filebin.net/19zqa69nf9fy7rqg"
+        default: "https://litter.catbox.moe/dhm4hn.ipa"
         required: true
         type: string
 
